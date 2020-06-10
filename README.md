@@ -5,6 +5,7 @@
 - TODO: further analysis
 
 ## Links to Datasets (with some comments/witty criticism)
+### Note : most data hasn't been updated since 2019 like the PDI website
 
 ```python
 police_shooting_datasets = {
@@ -14,7 +15,7 @@ police_shooting_datasets = {
     'Fairfax_VA': 'https://opendata.arcgis.com/datasets/f4d29ffadcd34a52bcecefef6f0146da_1.csv',
     'Hampton_VA': 'https://data.hampton.gov/api/views/nhh2-ywzf/rows.csv?accessType=DOWNLOAD',
 
-    # BULLSHIT : need to create an account to view data (in Socrata site like other sites but this one is locked behind account auth)
+    # Complete BS: need to create an account to view data (in Socrata site like other sites but this one is locked behind account auth)
     'Austin_TX': 'https://data.austintexas.gov/api/views/eqwy-k8kh/rows.csv?accessType=DOWNLOAD',
 
 
@@ -31,7 +32,6 @@ police_shooting_datasets = {
 
     # points to invalid page
     'LasCruses_NM': 'https://goo.gl/vtX1bC',
-
 
     'Charlotte_NC': 'https://opendata.arcgis.com/datasets/595b1e7d04a54d36a166340a4fdf6e3e_11.csv?outSR=%7B%22latestWkid%22%3A2264%2C%22wkid%22%3A102719%7D',
 
@@ -52,7 +52,6 @@ police_shooting_datasets = {
     # must click button
     'Atlanta_GA': 'http://opendata.atlantapd.org/Crimedata/OfficerInvolvedShootings.aspx',
 
-    
     'Jacksonville_FL': 'http://transparency.jaxsheriff.org/OIS/Export',
     'Orlando_FL': 'https://data.cityoforlando.net/api/views/6kz6-6c7n/rows.csv?accessType=DOWNLOAD',
     'Hartford_CT': 'https://data.hartford.gov/api/views/dzbp-kiee/rows.csv?accessType=DOWNLOAD',
@@ -64,7 +63,6 @@ police_shooting_datasets = {
 
     # pdf only
     'Redondo_CA': 'https://www.redondo.org/civicax/filebank/blobdload.aspx?BlobID=37552',
-
 
     'SF_CA': 'https://www.sanfranciscopolice.org/sites/default/files/2020-02/SFPDListOfOISInv20200205.pdf',
     'Tucson_AZ': 'https://opendata.arcgis.com/datasets/abb29a901bfd4d63a8148e0b34d99c48_34.csv?outSR=%7B%22latestWkid%22%3A2868%2C%22wkid%22%3A2868%7D'
